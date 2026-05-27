@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="39%" r="72%">
+      <stop offset="0" stop-color="#063529"/>
+      <stop offset="1" stop-color="#001A15"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="20" y1="17" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C790"/>
+      <stop offset="1" stop-color="#0A7A55"/>
+    </linearGradient>
+    <filter id="softGlow" x="7" y="10" width="50" height="48" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="1" stdDeviation="2.4" flood-color="#16B881" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" fill="url(#bgGlow)"/>
+  <g filter="url(#softGlow)" fill="url(#mark)">
+    <path d="M32 16.5C32.65 16.13 33.44 16.13 34.09 16.5L48.88 24.93C50.24 25.7 50.24 27.66 48.88 28.43L34.09 36.86C33.44 37.23 32.65 37.23 32 36.86L17.21 28.43C15.86 27.66 15.86 25.7 17.21 24.93L32 16.5Z"/>
+    <path d="M17.27 35.72C17.8 34.8 18.99 34.48 19.91 35L32.98 42.46L46.05 35C46.98 34.48 48.16 34.8 48.69 35.72C49.22 36.65 48.89 37.83 47.97 38.36L33.93 46.38C33.34 46.71 32.62 46.71 32.03 46.38L17.99 38.36C17.07 37.83 16.74 36.65 17.27 35.72Z" opacity="0.85"/>
+    <path d="M17.27 42.79C17.8 41.86 18.99 41.54 19.91 42.07L32.98 49.53L46.05 42.07C46.98 41.54 48.16 41.86 48.69 42.79C49.22 43.71 48.89 44.89 47.97 45.42L33.93 53.44C33.34 53.78 32.62 53.78 32.03 53.44L17.99 45.42C17.07 44.89 16.74 43.71 17.27 42.79Z" opacity="0.72"/>
+  </g>
+</svg>

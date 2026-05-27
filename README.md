@@ -1,3 +1,5 @@
-# Welcome to your Lovable project
+# LMU-WALLET
 
-TODO: Document your project here
+LMU WALLET repository.
+
+Built from a Lovable project.

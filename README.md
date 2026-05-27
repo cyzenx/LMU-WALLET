@@ -2,4 +2,4 @@
 
 LMU WALLET repository.
 
-Built from a Lovable project.
+Built Using AI and my prompting and design skill
